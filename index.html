@@ -7,20 +7,39 @@
     <title>Measure velocity</title>
 </head>
 <body>
-    <h1>Who will go first?</h1>
-    <form class="user-form user-form-js">
-        <label for="distance">Enter the distance:</label>
-        <input class="user-form distance__input" type="text" value="" name="distance" >
-        <button type="submit">Calculate</button>
-    </form>
-    <ul class="result-list">
-        <li class="result-list__item">
-            
-        </li>
-        <li class="result-list__item"></li>
-        <li class="result-list__item"></li>
-        <li class="result-list__item"></li>
-    </ul>
-    <script src="./scripts/main.js"></scrip>
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero">Who will go first?</h1>
+            <h2 class="visually-hidden">Measure velocity</h2>
+            <form class="user-form user-form-js">
+                <label class="user-form__label" for="distance">Enter distance:</label>
+                <input class="user-form distance__input input-js" type="text" value="" name="distance" >
+                <button class="user-form__btn  user-btn-js" type="submit">Calculate</button>
+            </form>
+        </div>
+    </section>
+    <section class="result-section">
+        <div class="container">
+            <ul class="result-list">
+                <li class="result-list__item">
+                    <p class="result-list__name on-foot">On foot</p>
+                    <output class="result-list__output output-js">hour</output>
+                </li>
+                <li class="result-list__item">
+                    <p class="result-list__name by-bike">By bike</p>
+                    <output class="result-list__output output-js">hour</output>
+                </li>
+                <li class="result-list__item">
+                    <p class="result-list__name by-car">By car</p>
+                    <output class="result-list__output output-js">hour</output>
+                </li>
+                <li class="result-list__item">
+                    <p class="result-list__name by-plane">By plane</p>
+                    <output class="result-list__output output-js">hour</output>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="/scripts/main.js"></script>
 </body>
 </html>

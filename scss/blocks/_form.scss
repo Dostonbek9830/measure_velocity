@@ -1,0 +1,31 @@
+.user-form__label {
+    display: block;
+    font-size: 28px;
+    text-align: center;
+}
+
+.user-form__label::selection {
+    color: orange;
+}
+
+.distance__input {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-form__btn {
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: lightskyblue;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}

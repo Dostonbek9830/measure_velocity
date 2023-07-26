@@ -1,0 +1,79 @@
+.result-section {
+    padding-top: 50px;
+}
+
+.result-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+}
+
+.result-list__item {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.result-list__name {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.result-list__output {
+    font-size: 20px;
+}
+
+.on-foot::before {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+    background: url(/icons/baggage.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.by-bike::before {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+    background: url(/icons/bike.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.by-car::before {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+    background: url(/icons/car.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+
+.by-plane::before {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+    background: url(/icons/plane.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+}
+

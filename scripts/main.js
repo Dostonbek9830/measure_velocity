@@ -23,10 +23,10 @@ elUserForm.addEventListener("submit", function(evt) {
 
 
     // Convert the times
-    timePassenger = Math.trunc(timePassenger)
-    timeByBike = Math.trunc(timeByBike) 
-    timeByCar = Math.trunc(timeByCar) 
-    timeByPlane = Math.trunc(timeByPlane) 
+    timePassenger = timePassenger.toFixed();
+    timeByBike = Math.trunc(timeByBike);
+    timeByCar = Math.trunc(timeByCar); 
+    timeByPlane = Math.trunc(timeByPlane); 
 
     // Condition that display which times should be selected
     if (timePassenger || timeByBike || timeByBike || timeByPlane >= 1) {
